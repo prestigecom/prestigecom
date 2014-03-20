@@ -1,0 +1,1 @@
+<?php include("../config/config.php");if(isset($_POST['action']) && 'check_availability'==$_POST['action'] && isset($_POST['type']) && !empty($_POST['value'])){$r = Site::checkAvailability($_POST);echo ($r ? 'true':'false');exit;}if(isset($_POST['action']) && 'count_chars'==$_POST['action'] && isset($_POST['content'])){echo strlen(strip_tags($_POST['content']));exit;}?>

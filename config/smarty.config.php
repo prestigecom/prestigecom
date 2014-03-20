@@ -1,0 +1,1 @@
+<?php require_once ROOT.'smarty/'.$SMARTY_VERSION.'/libs/Smarty.class.php';$smarty = new Smarty();?>
